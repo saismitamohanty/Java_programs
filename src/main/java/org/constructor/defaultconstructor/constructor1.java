@@ -1,9 +1,9 @@
 package org.constructor.defaultconstructor;
 
-public class constructor1 {
+public class Constructor1 {
     int a, b;
 
-    constructor1() {
+    Constructor1() {
         System.out.println("A=" + a + "&B=" + b);
         a = 11;
         b = 22;
@@ -17,6 +17,6 @@ public class constructor1 {
     }
 
     public static void main(String[] args) {
-        new constructor1();
+        new Constructor1();
     }
 }

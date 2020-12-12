@@ -11,7 +11,7 @@ class Test {
 
       //  ob.name="anushka";  //Name should be constant..
 
-        ob.rollno = 020;
+        ob.rollno =20;
 
         System.out.println(ob.name);
 

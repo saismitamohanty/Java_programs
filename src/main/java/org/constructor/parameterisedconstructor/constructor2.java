@@ -1,10 +1,10 @@
 package org.constructor.parameterisedconstructor;
 
-public class constructor2 {
+public class Constructor2 {
     String name;
     int age;
 
-    constructor2(String m, int n) {
+    Constructor2(String m, int n) {
         name = m;
         age = n;
     }
@@ -14,9 +14,9 @@ public class constructor2 {
     }
 
     public static void main(String[] args) {
-        constructor2 x = new constructor2("Saismita", 22);
-        constructor2 y = new constructor2("Swopna", 23);
-        constructor2 z = new constructor2("Nibedita", 21);
+        Constructor2 x = new Constructor2("Saismita", 22);
+        Constructor2 y = new Constructor2("Swopna", 23);
+        Constructor2 z = new Constructor2("Nibedita", 21);
         System.out.println("Data of x:");
         x.display();
         System.out.println("Data of y:");
